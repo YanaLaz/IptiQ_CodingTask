@@ -19,7 +19,9 @@ The all_items() method lists all the items in the inventory with their names, qu
 
 ## High-level overview diagram
 
-The diagram shows the high-level overview of an inventory service. 
+The diagram shows the high-level overview of an inventory service.
+
+The inventory service is represented by the Inventory class. It has a dictionary items to store the items. The add_item, remove_item, update_item, and all_items methods provide the interface for adding, removing, updating, and listing items. The items are represented by "Item" which has its own quantity and price attributes.
 
 ![img.png](diagram.jpg)
 
